@@ -1,12 +1,25 @@
+/*  GPIO overhead test
+ * 
+ * Test: Overhead of setting GPIO pin high
+ * 
+ */
+
 void setup() {
-  // initialize digital pin LED_BUILTIN as an output.
-  pinMode(LED_BUILTIN, OUTPUT);
+    // Set pin D2/D3 to output
+  pinMode(D2, OUTPUT);
+  pinMode(D3, OUTPUT);
 }
 
 
 void loop() {
-  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on 
-  delay(1000);                       // wait for a second
-  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off
-  delay(1000);                       // wait for a second
+  // Timing Starts Here
+  digitalWrite(D2,HIGH);
+
+  // How long does a call to GPIO.set high take?
+  digitalWrite(D3, HIGH);
+  
+  // Timing Stops Here
+  digitalWrite(D2, LOW);
+
+   digitalWrite(D3, LOW);
 }

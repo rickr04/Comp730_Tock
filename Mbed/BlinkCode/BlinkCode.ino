@@ -1,28 +1,27 @@
-/*  GPIO overhead test
+/*  GPIO test
  * 
- * Test: Overhead of setting GPIO pin high
+ * Test: Setting a gpio pin high, low
+ *       Testing a 100ms delay call
  * 
  */
 
-void setup() {
-    // Set pin D2/D3 to output
+void setup()
+{
+  // Set pin D2/D3 to output
   pinMode(D2, OUTPUT);
   pinMode(D3, OUTPUT);
 }
 
+void loop()
+{
+  // Start Timing
+  digitalWrite(D2, HIGH);
 
-void loop() {
-  // Timing Starts Here
-  digitalWrite(D2,HIGH);
+  // digitalWrite(D3, LOW);  // Uncomment to test setting a gpio pin low
+  // digitalWrite(D3, HIGH); // Uncomment to test setting a gpio pin high
+  // delay(100); // Uncomment to test 100ms delay
 
-  // How long does a call to GPIO.set high take?
-  // How about GPIO.set low?
-//  digitalWrite(D3, LOW);
- // digitalWrite(D3, HIGH);
-  delay(100); // milliseconds
   // Timing Stops Here
   digitalWrite(D2, LOW);
-  delay(100);
 
-//  digitalWrite(D3, HIGH);
 }

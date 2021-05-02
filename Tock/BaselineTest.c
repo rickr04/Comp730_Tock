@@ -27,6 +27,7 @@ int main(void)
         gpio_set(2);   //gpio on
         // gpio_set(3) // uncomment to get timing for setting a gpio pin to high
         // gpio_clear(3) // uncomment to get timing for setting a gpio pin to low
+        // delay_ms(100) // uncomment to get timing for a 100ms sleep
         gpio_clear(2); // gpio off
     }
 }

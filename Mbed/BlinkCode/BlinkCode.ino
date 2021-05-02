@@ -16,10 +16,13 @@ void loop() {
   digitalWrite(D2,HIGH);
 
   // How long does a call to GPIO.set high take?
-  digitalWrite(D3, HIGH);
-  
+  // How about GPIO.set low?
+//  digitalWrite(D3, LOW);
+ // digitalWrite(D3, HIGH);
+  delay(100); // milliseconds
   // Timing Stops Here
   digitalWrite(D2, LOW);
+  delay(100);
 
-   digitalWrite(D3, LOW);
+//  digitalWrite(D3, HIGH);
 }

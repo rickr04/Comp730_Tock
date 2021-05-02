@@ -6,9 +6,9 @@ This repo is host to my code for a research project into [Tock OS](https://www.t
 
 ## Tock
 
-## Riot
+## RiotOS
 
-## MBED/Arduino
+## Mbed/Arduino
 
 ## Tests
 

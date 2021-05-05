@@ -6,11 +6,12 @@ This repo is host to my code for a research project into [Tock OS](https://www.t
 
 ## Tock
 https://www.tockos.org<br />  
-https://youtu.be/gZqVWVwu_2U
+
+Video guide on how to load Tock + Application onto board: https://youtu.be/gZqVWVwu_2U
 
 ## RiotOS
-https://www.riot-os.org
-
+https://www.riot-os.org <br />    
+Video guide on how to load Tock + Application onto board: https://youtu.be/gZqVWVwu_2U
 ## Mbed/Arduino
 https://www.arduino.cc
 https://os.mbed.com

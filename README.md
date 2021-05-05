@@ -5,10 +5,14 @@ This repo is host to my code for a research project into [Tock OS](https://www.t
 
 
 ## Tock
+https://www.tockos.org
 
 ## RiotOS
+https://www.riot-os.org
 
 ## Mbed/Arduino
+https://www.arduino.cc
+https://os.mbed.com
 
 ## Tests
 Timing Analysis

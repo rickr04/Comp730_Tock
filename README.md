@@ -6,6 +6,7 @@ This repo is host to my code for a research project into [Tock OS](https://www.t
 
 ## Tock
 https://www.tockos.org
+https://youtu.be/gZqVWVwu_2U
 
 ## RiotOS
 https://www.riot-os.org

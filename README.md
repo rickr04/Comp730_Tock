@@ -18,7 +18,7 @@ https://os.mbed.com <br />
 This one is self-explanatory and does not require detailed instruction. Just open up the Arduino IDE, select the correct board, write your code, and upload :)
 
 ## Logic Analyzer
-Video showing how to use a Saleae Logic Analyzer: 
+Video showing how to use a Saleae Logic Analyzer: https://youtu.be/wEvzgl2Tkc0
 
 ## Results
 

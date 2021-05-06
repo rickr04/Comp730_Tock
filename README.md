@@ -11,10 +11,11 @@ Video guide on how to load Tock + Application onto board: https://youtu.be/gZqVW
 
 ## RiotOS
 https://www.riot-os.org <br />    
-Video guide on how to load Tock + Application onto board: https://youtu.be/gZqVWVwu_2U
+Video guide on how to load Riot + Application onto board: https://youtu.be/KHR7amgJnU4
 ## Mbed/Arduino
-https://www.arduino.cc
-https://os.mbed.com
+https://www.arduino.cc <br />
+https://os.mbed.com <br />
+This one is self-explanatory and does not require detailed instruction. Just open up the Arduino IDE, select the correct board, write your code, and upload :)
 
 ## Tests
 Timing Analysis

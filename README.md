@@ -21,6 +21,7 @@ This one is self-explanatory and does not require detailed instruction. Just ope
 Video showing how to use a Saleae Logic Analyzer: https://youtu.be/wEvzgl2Tkc0
 
 ## Results
+See written report
 
 ## How To Guide
-
+Coming soon
